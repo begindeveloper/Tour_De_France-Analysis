@@ -1,29 +1,90 @@
-🚴‍♂️ Tour de France Analysis
-This project explores over a century of Tour de France data to uncover historical trends and use machine learning to predict the winner's country based on race characteristics.
+---
 
-🔍 Key Features
-📊 Exploratory Data Analysis (EDA)
+# 🚴‍♂ Tour de France Analysis
 
-Analyzed trends in race distance, average speed, stage count, and nationality of winners from 1903 to the present.
+This project explores **over a century** of Tour de France data to uncover historical trends and apply **machine learning** to predict the **winner's country** based on race characteristics.
 
-🛠️ Feature Engineering
+---
 
-Created derived features like average speed, race duration, and total distance to enhance predictive performance.
+##  Key Features[kaggle.com]
 
-🧬 Target Encoding
+*  **Exploratory Data Analysis (EDA)**
 
-Applied LabelEncoder to encode categorical variables (e.g., winner's country) for model compatibility.
+  * Visualized trends in:
 
-🤖 Model Training
+    * Race distance
+    * Average speed
+    * Stage count
+    * Nationality of winners (1903 to present)
 
-Trained a Random Forest Classifier and Decision Tree Classifier to predict the winner's nationality based on race features.
+*  **Feature Engineering**
 
-📈 Model Evaluation
+  * Created meaningful features like:
 
-Evaluated model performance using accuracy scores, confusion matrices, and per-country prediction accuracy.
+    * Average speed
+    * Race duration
+    * Total distance
 
-💡 Insights
+*  **Target Encoding**
 
-Identified dominant cycling nations such as France and Belgium.
+  * Used `LabelEncoder` to encode categorical data such as the **winner's country** for model compatibility.
 
-Highlighted misclassification patterns (e.g., Spain vs. Italy) with a confusion matrix heatmap.
+*  **Model Training**
+
+  * Trained:
+
+    * **Random Forest Classifier**
+    * **Decision Tree Classifier**
+  * Input features included race year, distance, stages, etc.
+
+*  **Model Evaluation**
+
+  * Evaluated performance using:
+
+    * Accuracy scores
+    * Confusion matrices
+    * Per-country prediction accuracy
+
+*  **Insights**
+
+  * France and Belgium emerged as dominant cycling nations.
+  * Some confusion between similar cycling powers (e.g., **Spain** vs. **Italy**) identified through heatmaps.
+
+---
+
+##  Visualizations
+
+### 📌 Feature Importance
+
+<img src="img/feature_import_tour.png" alt="Feature Importance" width="500"/>
+
+### 📌 Confusion Matrix
+
+<img src="images/confusionmatrix_tour.png" alt="Confusion Matrix" width="500"/>
+
+### 📌 Outliers
+
+<img src="img/outliers_tour.png" alt="Outliers" width="500"/>
+
+### 📌 Model Accuracy
+
+<img src="img/model_accuracy_tour.png" alt="Model Accuracy" width="500"/>
+
+---
+
+## 🛠️ Tools & Skills Used
+
+* Python
+* pandas
+* matplotlib, seaborn
+* scikit-learn
+* Data preprocessing
+* Machine Learning (Classification)
+* Data Visualization
+
+---
+
+## Author
+* Mary Eyeson
+* Data Analysis & Machine Learning Enthusiast
+* Dallas, TX
