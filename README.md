@@ -1,21 +1,29 @@
-# Tour_De_France Analysis
+🚴‍♂️ Tour de France Analysis
+This project explores over a century of Tour de France data to uncover historical trends and use machine learning to predict the winner's country based on race characteristics.
 
- ### This project explores over a century of Tour de France cycling data to uncover historical patterns and predict future race outcomes using machine learning.
+🔍 Key Features
+📊 Exploratory Data Analysis (EDA)
 
+Analyzed trends in race distance, average speed, stage count, and nationality of winners from 1903 to the present.
 
-# Key Features:
+🛠️ Feature Engineering
 
-### Exploratory Data Analysis (EDA):  Visualized trends in race distance, speed, stage count, and nationality of winners from 1903 to the present.
+Created derived features like average speed, race duration, and total distance to enhance predictive performance.
 
-### Feature Engineering: Created meaningful features such as average speed, race duration, and total distance for predictive modeling.
+🧬 Target Encoding
 
-### Target Encoding: Used LabelEncoder to prepare categorical variables like the winner's country for model training.
+Applied LabelEncoder to encode categorical variables (e.g., winner's country) for model compatibility.
 
-### Model Training: Built a Random Forest Classifier and Decision Tree Classifier to predict the winner’s country based on race features.
+🤖 Model Training
 
-### Evaluation: Measured accuracy and generated confusion matrices and per-country accuracy scores to evaluate performance.
+Trained a Random Forest Classifier and Decision Tree Classifier to predict the winner's nationality based on race features.
 
-### Insights: Identified dominant cycling nations (e.g., France, Belgium) with high prediction accuracy and visualized misclassification trends (e.g., Spain vs. Italy) using a confusion matrix heatmap.
+📈 Model Evaluation
 
-### Tools & Skills:
-### Python, pandas, matplotlib, seaborn, scikit-learn, EDA, Machine Learning, Data Visualization, Classification Models
+Evaluated model performance using accuracy scores, confusion matrices, and per-country prediction accuracy.
+
+💡 Insights
+
+Identified dominant cycling nations such as France and Belgium.
+
+Highlighted misclassification patterns (e.g., Spain vs. Italy) with a confusion matrix heatmap.
