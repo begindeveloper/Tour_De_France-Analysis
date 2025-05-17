@@ -60,7 +60,7 @@ This project explores **over a century** of Tour de France data to uncover histo
 
 ### 📌 Confusion Matrix
 
-<img src="images/confusionmatrix_tour.png" alt="Confusion Matrix" width="500"/>
+<img src="img/confusionmatrix_tour.png" alt="Confusion Matrix" width="500"/>
 
 ### 📌 Outliers
 
